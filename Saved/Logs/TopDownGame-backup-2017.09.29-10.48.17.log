@@ -1,0 +1,668 @@
+﻿Log file open, 09/29/17 09:32:32
+LogInit:Display: Running engine for game: TopDownGame
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(107947264) SRandInit(107947264).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081196
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.29-08.32.33:124][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-08.32.33:124][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.29-08.32.33:159][  0]LogInit: Computer: C217-07
+[2017.09.29-08.32.33:159][  0]LogInit: User: emmacox
+[2017.09.29-08.32.33:159][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.29-08.32.33:159][  0]LogInit: High frequency timer resolution =3.328124 MHz
+[2017.09.29-08.32.33:159][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.29-08.32.33:159][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.29-08.32.33:159][  0]LogMemory: Process Physical Memory: 273.82 MB used, 273.82 MB peak
+[2017.09.29-08.32.33:159][  0]LogMemory: Process Virtual Memory: 261.22 MB used, 261.22 MB peak
+[2017.09.29-08.32.33:159][  0]LogMemory: Physical Memory: 7107.41 MB used,  9197.13 MB free, 16304.54 MB total
+[2017.09.29-08.32.33:159][  0]LogMemory: Virtual Memory: 640.13 MB used,  9197.13 MB free, 134217728.00 MB total
+[2017.09.29-08.32.33:222][  0]LogInit: Using OS detected language (en-US).
+[2017.09.29-08.32.33:222][  0]LogInit: Using OS detected locale (en-GB).
+[2017.09.29-08.32.33:225][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.29-08.32.33:968][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.29-08.32.33:988][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2017.09.29-08.32.33:988][  0]LogD3D11RHI:       4062/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.09.29-08.32.33:989][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.29-08.32.33:989][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.29-08.32.33:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.29-08.32.33:994][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.29-08.32.33:994][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2017.09.29-08.32.33:994][  0]LogWindows: EnumDisplayDevices:
+[2017.09.29-08.32.33:994][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2017.09.29-08.32.33:995][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.09.29-08.32.33:995][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.09.29-08.32.33:995][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.09.29-08.32.33:995][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.29-08.32.33:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2017.09.29-08.32.33:995][  0]LogD3D11RHI:   Driver Version: 377.11 (internal:21.21.13.7711, unified:377.11)
+[2017.09.29-08.32.33:995][  0]LogD3D11RHI:      Driver Date: 3-17-2017
+[2017.09.29-08.32.33:995][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.29-08.32.34:010][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.29-08.32.34:020][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.29-08.32.34:062][  0]LogShaderCompilers: Guid format shader working directory is 35 characters bigger than the processId version (E:/TopDownGame/Intermediate/Shaders/WorkingDirectory/7932/).
+[2017.09.29-08.32.34:062][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/emma.cox/AppData/Local/Temp/UnrealShaderWorkingDir/4C309144485654C1FD5FA1A4986A6043/'.
+[2017.09.29-08.32.34:062][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.09.29-08.32.34:972][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.29-08.32.35:016][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.09.29-08.32.35:054][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.29-08.32.35:101][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.09.29-08.32.35:155][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.09.29-08.32.35:213][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.29-08.32.35:270][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.29-08.32.35:319][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.29-08.32.35:358][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.09.29-08.32.35:405][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.09.29-08.32.35:456][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.29-08.32.35:499][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.29-08.32.35:547][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.29-08.32.35:592][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.29-08.32.35:637][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.29-08.32.35:727][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.29-08.32.35:727][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.29-08.32.35:758][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.09.29-08.32.35:833][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.09.29-08.32.35:860][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.09.29-08.32.35:898][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.29-08.32.35:942][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.29-08.32.35:986][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.29-08.32.36:029][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.09.29-08.32.36:029][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.09.29-08.32.36:442][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.09.29-08.32.36:528][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/emma.cox/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.29-08.32.36:528][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/emma.cox/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.09.29-08.32.36:528][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/TopDownGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.29-08.32.36:529][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.29-08.32.36:529][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/TopDownGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.29-08.32.36:529][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.29-08.32.36:554][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.29-08.32.36:576][  0]LogDerivedDataCache: Using Local data cache path C:/Users/emma.cox/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.29-08.32.36:584][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.29-08.32.36:585][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.29-08.32.36:585][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-08.32.36:585][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.29-08.32.36:886][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.29-08.32.36:943][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.29-08.32.37:092][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.29-08.32.37:126][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.29-08.32.37:167][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.29-08.32.37:167][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.09.29-08.32.37:167][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.09.29-08.32.37:608][  0]LogNetVersion: TopDownGame , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4257674358)
+[2017.09.29-08.32.37:665][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.09.29-08.32.38:140][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.455274 seconds
+[2017.09.29-08.32.38:145][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.09.29-08.32.38:146][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.09.29-08.32.38:146][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.29-08.32.38:209][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.29-08.32.40:231][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.29-08.32.40:269][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.29-08.32.40:758][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.29-08.32.41:085][  0]SourceControl: Info Source control is disabled
+[2017.09.29-08.32.41:099][  0]SourceControl: Info Source control is disabled
+[2017.09.29-08.32.41:146][  0]SourceControl: Info Source control is disabled
+[2017.09.29-08.32.41:190][  0]SourceControl: Info Source control is disabled
+[2017.09.29-08.32.41:752][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.29-08.32.42:233][  0]LogEngine: Initializing Engine...
+[2017.09.29-08.32.42:233][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.29-08.32.42:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.29-08.32.42:385][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.29-08.32.42:493][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.29-08.32.42:498][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.32.42:534][  0]LogInit: FAudioDevice initialized.
+[2017.09.29-08.32.42:568][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/emma.cox/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.09.29-08.32.42:579][  0]LogInit: Texture streaming: Enabled
+[2017.09.29-08.32.42:667][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.29-08.32.42:857][  0]LogInit: Transaction tracking system initialized
+[2017.09.29-08.32.43:114][  0]BlueprintLog: New page: Editor Load
+[2017.09.29-08.32.43:896][  0]LocalizationService: Info Localization service is disabled
+[2017.09.29-08.32.44:500][  0]LogConsoleResponse:Display: 
+[2017.09.29-08.32.44:623][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.29-08.32.44:623][  0]LogCook:Display: Mobile HDR setting 1
+[2017.09.29-08.32.45:468][  0]LogFileCache: Scanning file cache for directory 'E:/TopDownGame/Content/' took 0.01s
+[2017.09.29-08.32.45:513][  0]SourceControl: Info Source control is disabled
+[2017.09.29-08.32.45:513][  0]Cmd: MAP LOAD FILE="E:/TopDownGame/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.29-08.32.45:514][  0]LightingResults: New page: Lighting Build
+[2017.09.29-08.32.45:555][  0]MapCheck: New page: Map Check
+[2017.09.29-08.32.45:556][  0]LightingResults: New page: Lighting Build
+[2017.09.29-08.32.46:111][  0]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.32.46:138][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.29-08.32.46:161][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.29-08.32.46:202][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.634ms to complete.
+[2017.09.29-08.32.46:202][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.689
+[2017.09.29-08.32.46:253][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.09.29-08.32.46:314][  0]LogCollectionManager: Loaded 0 collections in 0.001778 seconds
+[2017.09.29-08.32.46:375][  0]LogFileCache: Scanning file cache for directory 'E:/TopDownGame/Saved/Collections/' took 0.01s
+[2017.09.29-08.32.46:375][  0]LogFileCache: Scanning file cache for directory 'E:/TopDownGame/Content/Developers/emmacox/Collections/' took 0.01s
+[2017.09.29-08.32.46:375][  0]LogFileCache: Scanning file cache for directory 'E:/TopDownGame/Content/Collections/' took 0.00s
+[2017.09.29-08.32.46:375][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000014 seconds
+[2017.09.29-08.32.46:384][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2017.09.29-08.32.46:442][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.29-08.32.46:479][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.29-08.32.46:520][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.29-08.32.46:554][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.09.29-08.32.46:558][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.29-08.32.46:560][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.29-08.32.46:564][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.29-08.32.46:653][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.09.29-08.32.46:820][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.09.29-08.32.46:820][  0]LogLoad: (Engine Initialization) Total time: 15.67 seconds
+[2017.09.29-08.32.46:820][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.16 seconds
+[2017.09.29-08.32.46:820][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.29-08.32.46:831][  0]LogOcInput: OculusInput pre-init called
+[2017.09.29-08.32.46:831][  0]LogHMD: Starting GearVRController plugin
+[2017.09.29-08.32.46:844][  0]LogAssetRegistry: Asset discovery search completed in 9.2011 seconds
+[2017.09.29-08.32.46:845][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.29-08.32.46:845][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000035 seconds (updated 0 objects)
+[2017.09.29-08.32.46:845][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.29-08.32.46:874][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-08.33.42:435][626]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-08.33.57:160][327]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/emma.cox/Desktop/SM_Grass.fbx)
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: Geometry, ItemCount : 2
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: Material, ItemCount : 1
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: Texture, ItemCount : 1
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: Model, ItemCount : 2
+[2017.09.29-08.33.57:235][327]LogFbx: ItemName: Video, ItemCount : 1
+[2017.09.29-08.33.57:242][327]LogFbx: Loading FBX Scene from ../../../../../../Users/emma.cox/Desktop/SM_Grass.fbx
+[2017.09.29-08.33.57:250][327]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-08.34.09:967][327]LogFbx: Loading FBX Scene from ../../../../../../Users/emma.cox/Desktop/SM_Grass.fbx
+[2017.09.29-08.34.09:972][327]LogFbx: FBX Scene Loaded Succesfully
+[2017.09.29-08.34.09:975][327]LogLinker: Can't find file '/Game/TopDownBP/lambert2'
+[2017.09.29-08.34.09:975][327]LogLinker: Can't find file '/Game/TopDownBP/lambert2'
+[2017.09.29-08.34.10:003][327]LogLinker: Can't find file '/Game/TopDownBP/T_Grass_01'
+[2017.09.29-08.34.10:003][327]LogLinker: Can't find file '/Game/TopDownBP/T_Grass_01'
+[2017.09.29-08.34.10:060][327]LogTexture:Display: Building textures: T_Grass_01 (AutoDXT, 1024X1024)
+[2017.09.29-08.34.10:654][327]LogTexture:Display: Building textures: T_Grass_01 (AutoDXT, 1024X1024)
+[2017.09.29-08.34.11:126][327]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.29-08.34.11:135][327]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.34.11:179][327]LogFbx:Warning: Triangulating static mesh pPlane2
+[2017.09.29-08.34.11:270][327]LogStaticMesh: Building static mesh SM_Grass_pPlane2...
+[2017.09.29-08.34.11:270][327]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownBP/SM_Grass_pPlane2.SM_Grass_pPlane2
+[2017.09.29-08.34.11:283][327]LogFbx:Warning: Triangulating static mesh pPlane3
+[2017.09.29-08.34.11:284][327]LogStaticMesh: Building static mesh SM_Grass_pPlane3...
+[2017.09.29-08.34.11:284][327]LogStaticMesh: Built static mesh [0.00s] /Game/TopDownBP/SM_Grass_pPlane3.SM_Grass_pPlane3
+[2017.09.29-08.34.11:301][327]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.09.29-08.34.11:301][327]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.09.29-08.34.11:301][327]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.09.29-08.34.25:006][914]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.34.30:053][385]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.30:185][385]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.30:202][385]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.30:237][385]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.34.30:249][385]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.29-08.34.31:229][431]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.29-08.34.31:229][431]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.29-08.34.31:229][431]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.09.29-08.34.31:229][431]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.34.35:071][765]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.35:084][765]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.36:500][861]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.09.29-08.34.36:500][861]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.29-08.34.36:500][861]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.09.29-08.34.36:500][861]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.34.40:419][203]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.40:432][203]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.41:327][259]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.09.29-08.34.41:327][259]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.09.29-08.34.41:327][259]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.09.29-08.34.41:327][259]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.34.43:228][415]LogMaterialEditor: Saving and Compiling material OakTreeLeaf_Mat
+[2017.09.29-08.34.43:732][415]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.43:769][415]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.43:826][415]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.43:857][415]LogMaterial: Missing cached shader map for material OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.43:919][415]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeLeaf_Mat, compiling. 
+[2017.09.29-08.34.44:453][415]TextureStreamingBuild:Display: Compiling optional shaders took 0.540 seconds.
+[2017.09.29-08.34.46:345][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/OakTreeLeaf_Mat" FILE="E:/TopDownGame/Content/TopDownBP/OakTreeLeaf_Mat.uasset" SILENT=true
+[2017.09.29-08.34.46:419][415]LogSavePackage: Save=36.21ms
+[2017.09.29-08.34.46:419][415]LogSavePackage: Moving 'E:/TopDownGame/Saved/OakTreeLeaf_MatFD930B8245E6D0F014D75BAC3FD74848.tmp' to 'E:/TopDownGame/Content/TopDownBP/OakTreeLeaf_Mat.uasset'
+[2017.09.29-08.34.46:443][415]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Content/TopDownBP/OakTreeLeaf_Mat.uasset
+[2017.09.29-08.35.07:599][861]LogActorFactory: Actor Factory created SM_Grass_pPlane2
+[2017.09.29-08.35.09:102][ 19]LogActorFactory: Actor Factory created SM_Grass_pPlane2
+[2017.09.29-08.35.33:519][435]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.29-08.36.34:786][309]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.36.35:410][375]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlatPlane19)
+[2017.09.29-08.36.54:469][227]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.36.55:120][299]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlatPlane19)
+[2017.09.29-08.37.26:764][845]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.37.26:826][845]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.37.26:841][845]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.37.26:879][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.37.26:883][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.29-08.37.28:441][933]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.09.29-08.37.28:441][933]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.09.29-08.37.28:441][933]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.37.28:441][933]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.37.56:258][738]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.37.57:773][834]MaterialEditorStats: Info Base pass shader: 47 instructions
+[2017.09.29-08.37.57:773][834]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.09.29-08.37.57:773][834]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.37.57:773][834]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.38.00:457][ 69]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.00:472][ 69]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.38.01:803][149]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.09.29-08.38.01:803][149]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.09.29-08.38.01:803][149]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.38.01:803][149]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.38.10:137][886]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.10:173][886]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.10:175][886]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.10:175][886]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2017.09.29-08.38.10:175][886]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.10:175][886]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.10:177][886]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'AdditionalWPO'
+[2017.09.29-08.38.10:177][886]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.10:177][886]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.10:228][887]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.09.29-08.38.21:282][374]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.21:283][374]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.21:283][374]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.21:283][374]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.21:287][374]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.38.21:312][374]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.21:312][374]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.25:136][716]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.25:137][716]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.25:137][716]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.25:137][716]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.30:327][136]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.30:328][136]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.30:328][136]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.30:328][136]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.33:710][424]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.33:711][424]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.33:711][424]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.33:713][424]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.40:827][772]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.40:828][772]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.40:828][772]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindWeight'
+[2017.09.29-08.38.40:828][772]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.41:722][856]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.41:723][856]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.41:723][856]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.41:724][856]MaterialEditorStats:Error: Error [SM5] Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.45:871][231]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.45:872][231]LogMaterial:Warning: Failed to compile Material /Engine/Transient.lambert2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.29-08.38.45:872][231]LogMaterial:Warning: 	Function SimpleGrassWind: Missing function input 'WindIntensity'
+[2017.09.29-08.38.49:702][569]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.51:646][687]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.09.29-08.38.51:646][687]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2017.09.29-08.38.51:646][687]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.38.51:646][687]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.38.54:067][882]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.38.55:803][988]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.09.29-08.38.55:803][988]MaterialEditorStats: Info Vertex shader: 150 instructions
+[2017.09.29-08.38.55:803][988]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.38.55:803][988]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.39.14:555][474]LogMaterialEditor: Saving and Compiling material lambert2
+[2017.09.29-08.39.15:052][474]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.39.15:103][474]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.39.15:144][474]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.39.15:209][474]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2017.09.29-08.39.16:565][474]TextureStreamingBuild:Display: Compiling optional shaders took 1.365 seconds.
+[2017.09.29-08.39.18:813][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/lambert2" FILE="E:/TopDownGame/Content/TopDownBP/lambert2.uasset" SILENT=true
+[2017.09.29-08.39.18:862][474]LogSavePackage: Save=29.40ms
+[2017.09.29-08.39.18:862][474]LogSavePackage: Moving 'E:/TopDownGame/Saved/lambert2E873825E45E9F9E33057908331BAAED4.tmp' to 'E:/TopDownGame/Content/TopDownBP/lambert2.uasset'
+[2017.09.29-08.39.18:880][474]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Content/TopDownBP/lambert2.uasset
+[2017.09.29-08.39.51:681][941]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.39.51:796][941]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.39.51:814][941]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.39.51:857][941]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.39.53:661][ 49]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.09.29-08.39.53:661][ 49]MaterialEditorStats: Info Vertex shader: 150 instructions
+[2017.09.29-08.39.53:661][ 49]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.39.53:661][ 49]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.40.02:123][738]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.40.02:140][738]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.40.03:780][852]MaterialEditorStats: Info Base pass shader: 50 instructions
+[2017.09.29-08.40.03:780][852]MaterialEditorStats: Info Vertex shader: 150 instructions
+[2017.09.29-08.40.03:780][852]MaterialEditorStats: Info Texture samplers: 5/16
+[2017.09.29-08.40.03:780][852]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.40.33:198][591]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.40.33:223][591]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.40.36:899][933]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.40.36:921][933]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.40.38:274][ 28]MaterialEditorStats: Info Base pass shader: 107 instructions
+[2017.09.29-08.40.38:274][ 28]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.40.38:274][ 28]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.40.38:274][ 28]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.41.06:666][445]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.41.06:684][445]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.41.08:296][568]MaterialEditorStats: Info Base pass shader: 107 instructions
+[2017.09.29-08.41.08:296][568]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.41.08:296][568]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.41.08:296][568]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.41.14:571][209]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass_pPlane2)
+[2017.09.29-08.42.21:714][ 34]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.42.30:913][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass_pPlane2)
+[2017.09.29-08.42.36:550][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass_pPlane3)
+[2017.09.29-08.43.35:817][ 21]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (FlatPlane19)
+[2017.09.29-08.43.37:582][211]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.43.37:743][211]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.43.37:744][211]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.43.37:744][211]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:43:37)
+[2017.09.29-08.43.37:744][211]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.43.37:771][211]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027299s)
+[2017.09.29-08.43.37:772][211]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.43.37:772][211]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.09.29-08.43.37:772][211]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028362s)
+[2017.09.29-08.43.37:787][211]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.43.37:795][211]LogInit: FAudioDevice initialized.
+[2017.09.29-08.43.37:839][211]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.43.37:845][211]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.43.37
+[2017.09.29-08.43.37:846][211]LogWorld: Bringing up level for play took: 0.005074
+[2017.09.29-08.43.37:878][211]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.09.29-08.43.37:879][211]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.57
+[2017.09.29-08.43.37:879][211]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.43.43:302][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.43.43:343][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.43.50:762][356]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.43.53:167][546]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlatPlane21)
+[2017.09.29-08.43.54:301][671]Cmd: DUPLICATE
+[2017.09.29-08.43.54:301][671]Cmd: ACTOR DUPLICATE
+[2017.09.29-08.44.03:606][601]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.44.23:370][858]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Grass_pPlane3)
+[2017.09.29-08.44.41:449][810]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.09.29-08.44.42:380][913]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.44.42:415][913]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.44.42:415][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.44.42:416][913]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:44:42)
+[2017.09.29-08.44.42:416][913]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.44.42:444][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028504s)
+[2017.09.29-08.44.42:445][913]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.44.42:445][913]LogPlayLevel: PIE: World Init took: (0.001055s)
+[2017.09.29-08.44.42:445][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.029841s)
+[2017.09.29-08.44.42:458][913]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.44.42:467][913]LogInit: FAudioDevice initialized.
+[2017.09.29-08.44.42:495][913]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.44.42:500][913]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.44.42
+[2017.09.29-08.44.42:500][913]LogWorld: Bringing up level for play took: 0.004312
+[2017.09.29-08.44.42:501][913]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.048
+[2017.09.29-08.44.42:502][913]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.44.45:077][218]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.44.45:116][218]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.24:898][886]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock4)
+[2017.09.29-08.45.25:280][925]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.09.29-08.45.27:007][125]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.45.27:046][125]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.27:046][125]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.45.27:046][125]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:45:27)
+[2017.09.29-08.45.27:046][125]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.45.27:074][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027496s)
+[2017.09.29-08.45.27:075][125]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.45.27:075][125]LogPlayLevel: PIE: World Init took: (0.000958s)
+[2017.09.29-08.45.27:075][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028793s)
+[2017.09.29-08.45.27:089][125]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.45.27:097][125]LogInit: FAudioDevice initialized.
+[2017.09.29-08.45.27:128][125]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.45.27:133][125]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.45.27
+[2017.09.29-08.45.27:133][125]LogWorld: Bringing up level for play took: 0.004207
+[2017.09.29-08.45.27:134][125]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap 0.678
+[2017.09.29-08.45.27:134][125]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.27:651][183]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.27:694][183]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.49:712][599]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.45.49:749][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.49:749][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.45.49:749][599]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:45:49)
+[2017.09.29-08.45.49:749][599]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.45.49:777][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027710s)
+[2017.09.29-08.45.49:778][599]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.45.49:778][599]LogPlayLevel: PIE: World Init took: (0.000987s)
+[2017.09.29-08.45.49:778][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028964s)
+[2017.09.29-08.45.49:792][599]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.45.49:799][599]LogInit: FAudioDevice initialized.
+[2017.09.29-08.45.49:829][599]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.45.49:835][599]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.45.49
+[2017.09.29-08.45.49:835][599]LogWorld: Bringing up level for play took: 0.004692
+[2017.09.29-08.45.49:836][599]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.62
+[2017.09.29-08.45.49:837][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.53:533][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.45.53:579][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.46.25:987][199]LogEditorViewport: Clicking on Actor (LMB): SphereReflectionCapture (SphereReflectionCapture)
+[2017.09.29-08.46.26:760][280]Cmd: DELETE
+[2017.09.29-08.46.26:760][280]Cmd: ACTOR DELETE
+[2017.09.29-08.46.26:761][280]LogEditorActor: Deleted Actor: SphereReflectionCapture
+[2017.09.29-08.46.26:770][280]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.09.29-08.47.14:102][192]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.47.14:141][192]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.14:141][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.47.14:141][192]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:47:14)
+[2017.09.29-08.47.14:141][192]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.47.14:166][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025203s)
+[2017.09.29-08.47.14:167][192]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.47.14:167][192]LogPlayLevel: PIE: World Init took: (0.001114s)
+[2017.09.29-08.47.14:168][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026650s)
+[2017.09.29-08.47.14:181][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.47.14:190][192]LogInit: FAudioDevice initialized.
+[2017.09.29-08.47.14:220][192]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.47.14:226][192]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.47.14
+[2017.09.29-08.47.14:226][192]LogWorld: Bringing up level for play took: 0.004269
+[2017.09.29-08.47.14:227][192]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.233
+[2017.09.29-08.47.14:227][192]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.17:132][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.17:165][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.30:241][991]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.47.30:285][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.30:285][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.47.30:285][991]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:47:30)
+[2017.09.29-08.47.30:285][991]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.47.30:310][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024905s)
+[2017.09.29-08.47.30:311][991]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.47.30:311][991]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2017.09.29-08.47.30:311][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.025992s)
+[2017.09.29-08.47.30:322][991]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.47.30:331][991]LogInit: FAudioDevice initialized.
+[2017.09.29-08.47.30:365][991]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.47.30:370][991]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.47.30
+[2017.09.29-08.47.30:370][991]LogWorld: Bringing up level for play took: 0.004485
+[2017.09.29-08.47.30:371][991]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.089
+[2017.09.29-08.47.30:372][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.32:124][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.32:154][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.43:624][522]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (FlatPlane19)
+[2017.09.29-08.47.46:460][845]Cmd: DELETE
+[2017.09.29-08.47.46:460][845]Cmd: ACTOR DELETE
+[2017.09.29-08.47.46:461][845]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.09.29-08.47.46:472][845]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.09.29-08.47.51:686][446]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.47.51:722][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.47.51:722][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.47.51:722][446]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:47:51)
+[2017.09.29-08.47.51:722][446]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.47.51:749][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026700s)
+[2017.09.29-08.47.51:750][446]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.47.51:750][446]LogPlayLevel: PIE: World Init took: (0.001037s)
+[2017.09.29-08.47.51:750][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028019s)
+[2017.09.29-08.47.51:768][446]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.47.51:776][446]LogInit: FAudioDevice initialized.
+[2017.09.29-08.47.51:805][446]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.47.51:810][446]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.47.51
+[2017.09.29-08.47.51:810][446]LogWorld: Bringing up level for play took: 0.004386
+[2017.09.29-08.47.51:811][446]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.649
+[2017.09.29-08.47.51:811][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.48.01:224][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.48.01:254][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.48.39:413][797]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.29-08.48.48:122][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Maps/TopDownExampleMap" FILE="E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.09.29-08.49.01:425][338]LogSavePackage: Save=12778.35ms
+[2017.09.29-08.49.01:425][338]LogSavePackage: Moving 'E:/TopDownGame/Saved/TopDownExampleMap_Auto1CECE8D6245809ED338BE54A0464CFA85.tmp' to 'E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap'
+[2017.09.29-08.49.01:442][338]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/Maps/TopDownExampleMap_Auto1.umap
+[2017.09.29-08.49.01:457][338]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/TopDownExampleMap' took 13.349
+[2017.09.29-08.49.01:457][338]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.349
+[2017.09.29-08.49.01:460][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/SM_Grass_pPlane2] ([1] browsable assets)...
+[2017.09.29-08.49.01:491][338]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TopDownBP/SM_Grass_pPlane2.SM_Grass_pPlane2]
+[2017.09.29-08.49.01:491][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/SM_Grass_pPlane2]
+[2017.09.29-08.49.01:491][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/SM_Grass_pPlane2" FILE="E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/SM_Grass_pPlane2_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.29-08.49.01:701][338]LogSavePackage: Save=195.27ms
+[2017.09.29-08.49.01:701][338]LogSavePackage: Moving 'E:/TopDownGame/Saved/SM_Grass_pPlane2_Auto103FCECE74584F19C82D04DA650887E00.tmp' to 'E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/SM_Grass_pPlane2_Auto1.uasset'
+[2017.09.29-08.49.01:706][338]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/SM_Grass_pPlane2_Auto1.uasset
+[2017.09.29-08.49.01:706][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/T_Grass_01] ([1] browsable assets)...
+[2017.09.29-08.49.01:713][338]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/TopDownBP/T_Grass_01.T_Grass_01]
+[2017.09.29-08.49.01:713][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/T_Grass_01]
+[2017.09.29-08.49.01:713][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/T_Grass_01" FILE="E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/T_Grass_01_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.29-08.49.01:926][338]LogSavePackage: Save=198.21ms
+[2017.09.29-08.49.01:926][338]LogSavePackage: Moving 'E:/TopDownGame/Saved/T_Grass_01_Auto1C1FF811C4352C919F62290BDA03D598D.tmp' to 'E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/T_Grass_01_Auto1.uasset'
+[2017.09.29-08.49.01:931][338]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/T_Grass_01_Auto1.uasset
+[2017.09.29-08.49.01:931][338]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/SM_Grass_pPlane3] ([1] browsable assets)...
+[2017.09.29-08.49.01:961][338]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/TopDownBP/SM_Grass_pPlane3.SM_Grass_pPlane3]
+[2017.09.29-08.49.01:961][338]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/SM_Grass_pPlane3]
+[2017.09.29-08.49.01:961][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/SM_Grass_pPlane3" FILE="E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/SM_Grass_pPlane3_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.09.29-08.49.02:171][338]LogSavePackage: Save=195.96ms
+[2017.09.29-08.49.02:171][338]LogSavePackage: Moving 'E:/TopDownGame/Saved/SM_Grass_pPlane3_Auto1A85D9E85441BA6399DF3BD8C4FE83A09.tmp' to 'E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/SM_Grass_pPlane3_Auto1.uasset'
+[2017.09.29-08.49.02:176][338]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Saved/Autosaves/Game/TopDownBP/SM_Grass_pPlane3_Auto1.uasset
+[2017.09.29-08.49.02:176][338]LogFileHelpers: Auto-saving content packages took 0.716
+[2017.09.29-08.50.58:229][915]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.50.58:249][915]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.50.59:943][ 52]MaterialEditorStats: Info Base pass shader: 111 instructions
+[2017.09.29-08.50.59:943][ 52]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.50.59:943][ 52]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.50.59:943][ 52]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.51.02:453][264]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.51.03:835][373]MaterialEditorStats: Info Base pass shader: 111 instructions
+[2017.09.29-08.51.03:835][373]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.51.03:835][373]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.51.03:835][373]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.51.34:226][995]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.51.34:264][995]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.51.34:264][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.51.34:264][995]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:51:34)
+[2017.09.29-08.51.34:264][995]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.51.34:290][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025008s)
+[2017.09.29-08.51.34:291][995]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.51.34:291][995]LogPlayLevel: PIE: World Init took: (0.001081s)
+[2017.09.29-08.51.34:291][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.026374s)
+[2017.09.29-08.51.34:304][995]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.51.34:314][995]LogInit: FAudioDevice initialized.
+[2017.09.29-08.51.34:344][995]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.51.34:349][995]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.51.34
+[2017.09.29-08.51.34:349][995]LogWorld: Bringing up level for play took: 0.004181
+[2017.09.29-08.51.34:350][995]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.11
+[2017.09.29-08.51.34:351][995]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.52.29:873][651]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.52.29:909][651]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.52.30:126][674]Cmd: SELECT NONE
+[2017.09.29-08.52.45:595][660]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.09.29-08.52.45:657][660]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.52.45:708][660]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.52.45:755][660]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2017.09.29-08.52.47:030][660]TextureStreamingBuild:Display: Compiling optional shaders took 1.279 seconds.
+[2017.09.29-08.52.54:322][313]LogTemp: Repeting last play command: Selected Viewport
+[2017.09.29-08.52.54:360][313]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.52.54:360][313]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.29-08.52.54:360][313]PIE: New page: PIE session: TopDownExampleMap (29 Sep 2017 10:52:54)
+[2017.09.29-08.52.54:360][313]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap
+[2017.09.29-08.52.54:387][313]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026611s)
+[2017.09.29-08.52.54:388][313]LogAIModule: Creating AISystem for world TopDownExampleMap
+[2017.09.29-08.52.54:388][313]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2017.09.29-08.52.54:388][313]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap to /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap (0.028058s)
+[2017.09.29-08.52.54:402][313]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.09.29-08.52.54:411][313]LogInit: FAudioDevice initialized.
+[2017.09.29-08.52.54:445][313]LogLoad: Game class is 'TopDownGameMode_C'
+[2017.09.29-08.52.54:451][313]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap.TopDownExampleMap up for play (max tick rate 0) at 2017.09.29-09.52.54
+[2017.09.29-08.52.54:451][313]LogWorld: Bringing up level for play took: 0.004715
+[2017.09.29-08.52.54:452][313]PIE: Info Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_TopDownExampleMap -0.008
+[2017.09.29-08.52.54:452][313]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.52.55:784][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.52.55:817][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap' with GeneratedClass '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/TopDownExampleMap.TopDownExampleMap:PersistentLevel.TopDownExampleMap'
+[2017.09.29-08.53.00:903][862]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.53.01:012][862]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.53.01:031][862]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.53.01:073][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.53.02:449][966]MaterialEditorStats: Info Base pass shader: 111 instructions
+[2017.09.29-08.53.02:449][966]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.53.02:449][966]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.53.02:449][966]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.53.16:951][244]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.53.17:815][308]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.53.17:842][308]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.29-08.53.19:635][443]LogMaterialEditor: Saving and Compiling material lambert2
+[2017.09.29-08.53.20:173][443]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.53.20:238][443]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.53.20:286][443]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2017.09.29-08.53.20:343][443]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2017.09.29-08.53.21:719][443]TextureStreamingBuild:Display: Compiling optional shaders took 1.384 seconds.
+[2017.09.29-08.53.23:788][443]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/lambert2" FILE="E:/TopDownGame/Content/TopDownBP/lambert2.uasset" SILENT=true
+[2017.09.29-08.53.23:867][443]LogSavePackage: Save=40.26ms
+[2017.09.29-08.53.23:867][443]LogSavePackage: Moving 'E:/TopDownGame/Saved/lambert2E53B597D44277DC8FEE58C960B79DC67.tmp' to 'E:/TopDownGame/Content/TopDownBP/lambert2.uasset'
+[2017.09.29-08.53.23:891][443]LogSavePackage:Display: Finished SavePackage E:/TopDownGame/Content/TopDownBP/lambert2.uasset
+[2017.09.29-08.53.23:897][443]MaterialEditorStats: Info Base pass shader: 108 instructions
+[2017.09.29-08.53.23:897][443]MaterialEditorStats: Info Vertex shader: 80 instructions
+[2017.09.29-08.53.23:897][443]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.09.29-08.53.23:897][443]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.53.54:907][908]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.09.29-08.54.21:617][299]LogEditorTransaction: Undo Move Node
+[2017.09.29-08.54.21:674][299]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.54.23:527][361]MaterialEditorStats: Info Base pass shader: 108 instructions
+[2017.09.29-08.54.23:527][361]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.54.23:527][361]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.54.23:527][361]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.54.24:119][396]LogEditorTransaction: Undo Paste clipboard contents
+[2017.09.29-08.54.24:156][396]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.54.25:864][455]MaterialEditorStats: Info Base pass shader: 108 instructions
+[2017.09.29-08.54.25:864][455]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.54.25:864][455]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.54.25:864][455]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.54.33:591][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_171 or K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_171
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_174 or K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_174
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_55 or K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_55
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_56 or K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_56
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_58 or K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_58
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_59 or K2Node_CallFunction /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CallFunction_59
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CommutativeAssociativeBinaryOperator /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0 or K2Node_CommutativeAssociativeBinaryOperator /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_CommutativeAssociativeBinaryOperator_0
+[2017.09.29-08.54.33:592][909]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_VariableGet_1579 or K2Node_VariableGet /Game/TopDownBP/Blueprints/MainCharV2.MainCharV2:EventGraph.K2Node_VariableGet_1579
+[2017.09.29-08.54.57:486][278]LogEditorTransaction: Undo Break Pin Links
+[2017.09.29-08.54.57:528][278]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.09.29-08.54.59:393][339]MaterialEditorStats: Info Base pass shader: 108 instructions
+[2017.09.29-08.54.59:393][339]MaterialEditorStats: Info Vertex shader: 58 instructions
+[2017.09.29-08.54.59:393][339]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.09.29-08.54.59:393][339]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.29-08.56.25:268][244]BlueprintLog: New page: Compile MainCharV2
